@@ -20,7 +20,7 @@ public class RunWebdriver {
 
             options.addArguments("--start-maximized");
             options.addArguments("--ignore-certificate-errors");
-           // options.addArguments("--incognito");
+            options.addArguments("--incognito");
 
             System.setProperty("webdriver.chrome.driver", "C:/Users/{user}/Downloads/chromedriver.exe"); //добавить своего пользователя
 
